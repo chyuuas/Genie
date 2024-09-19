@@ -1,0 +1,139 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    margin-top: auto;
+    padding: 5px;
+    background-color: #f3f2f5;
+    text-align: left;
+}
+
+h1 {
+    font-family: "Quicksand", sans-serif;
+    color: #8785A2;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #cfced9;
+    border-left: 2px double #cfced9;
+    border-right: 2px double #cfced9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8785A2;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+li {
+    float: left;
+    padding: 5px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+li a {
+    display: auto;
+    color: #F6F6F6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 100%;
+}
+
+li a:hover {
+    background-color: #cfced9;
+}
+
+
+.blog-container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.blog-container p {
+    width: 100%;
+    text-align: justify;
+    color: #333;
+}
+
+.search-container {
+    margin-top: 10px;
+    font-size: 2px;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    padding: 50;
+    text-align: center;
+    margin-left: none;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Quicksand", sans-serif;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    border: none;
+    background-color: #8785A2;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    ;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #cfced9;
+}
+
+.contact-list {
+    margin-top: 40px;
+}
+
+h2 {
+    font-family: "Quicksand", sans-serif;
+    color: #8785A2;
+    text-align: center;
+    margin-top: 0%;
+    text-decoration: underline;
+}
+.flex-container {
+    display: flex;
+    gap: 20px; /* Adjust the space between the boxes */
+	font-size: 15px;
+}
+.box {
+    width: fit-content;
+    height: fit-content;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 30px;
+    color: #8785A2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    list-style-type: none;
+    
+}
+
